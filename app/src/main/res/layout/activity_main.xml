@@ -14,7 +14,7 @@
         android:entries="@array/MySpinners"
         android:focusedByDefault="false"
         android:prompt="@string/test1"
-        android:spinnerMode="dropdown"
+        android:spinnerMode="dialog"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="59dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
