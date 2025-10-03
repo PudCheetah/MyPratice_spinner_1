@@ -8,13 +8,14 @@
     tools:context=".MainActivity">
 
     <Spinner
-        android:id="@+id/Myspinner__mainActivity"
-        android:layout_width="match_parent"
+        android:id="@+id/spin_mySpinner"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:entries="@array/MySpinners"
+        android:layout_marginTop="59dp"
         android:focusedByDefault="false"
         android:prompt="@string/test1"
-        android:spinnerMode="dialog"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="59dp" />
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
